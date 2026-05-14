@@ -1,0 +1,12 @@
+node_modules
+.pnpm-store
+.expo
+.expo-shared
+dist
+build
+#.env
+#.env.local
+coverage
+.DS_Store
+*.log
+#.ai

@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ../../services/api
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    environment:
+      - NODE_ENV=development
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+    volumes:
+      - ../../services/api:/app
+      - /app/node_modules
+
+  ai-inference:
+    build:
+      context: ../../services/ai-inference
+      dockerfile: Dockerfile
+    ports:
+      - '8000:8000'
+    volumes:
+      - ../../ml/exports:/models
+

@@ -1,0 +1,13 @@
+{
+  "name": "@vitra/web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('web app scaffold')\"",
+    "build": "node -e \"console.log('web build scaffold')\"",
+    "lint": "node -e \"console.log('web lint scaffold')\"",
+    "test": "node -e \"console.log('web test scaffold')\"",
+    "typecheck": "node -e \"console.log('web typecheck scaffold')\""
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "@vitra/service-data-pipeline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('data-pipeline service dev scaffold')\"",
+    "build": "node -e \"console.log('data-pipeline service build scaffold')\"",
+    "lint": "node -e \"console.log('data-pipeline service lint scaffold')\"",
+    "test": "node -e \"console.log('data-pipeline service test scaffold')\"",
+    "typecheck": "node -e \"console.log('data-pipeline service typecheck scaffold')\""
+  }
+}
+

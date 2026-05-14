@@ -1,0 +1,13 @@
+{
+  "name": "@vitra/service-recommendation-engine",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('recommendation-engine service dev scaffold')\"",
+    "build": "node -e \"console.log('recommendation-engine service build scaffold')\"",
+    "lint": "node -e \"console.log('recommendation-engine service lint scaffold')\"",
+    "test": "node -e \"console.log('recommendation-engine service test scaffold')\"",
+    "typecheck": "node -e \"console.log('recommendation-engine service typecheck scaffold')\""
+  }
+}
+

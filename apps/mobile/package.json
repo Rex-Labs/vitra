@@ -1,0 +1,36 @@
+{
+  "name": "@vitra/mobile",
+  "version": "0.0.1",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "web": "expo start --web",
+    "build": "expo export",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "node -e \"console.log('mobile tests placeholder')\"",
+    "expo": "expo"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "^4.0.1",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/native-stack": "^7.2.10",
+    "@supabase/supabase-js": "^2.49.1",
+    "@tanstack/react-query": "^5.66.11",
+    "expo": "^52.0.32",
+    "expo-router": "^4.0.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "react-native": "^0.76.7",
+    "react-native-web": "^0.19.13",
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-reanimated": "^3.16.7",
+    "react-native-safe-area-context": "^4.12.0",
+    "react-native-screens": "^4.4.0",
+    "zod": "^3.24.1",
+    "zustand": "^5.0.3"
+  }
+}
+

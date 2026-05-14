@@ -1,0 +1,13 @@
+{
+  "name": "@vitra/ml-dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('ml dashboard scaffold')\"",
+    "build": "node -e \"console.log('ml dashboard build scaffold')\"",
+    "lint": "node -e \"console.log('ml dashboard lint scaffold')\"",
+    "test": "node -e \"console.log('ml dashboard test scaffold')\"",
+    "typecheck": "node -e \"console.log('ml dashboard typecheck scaffold')\""
+  }
+}
+

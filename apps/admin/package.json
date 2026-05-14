@@ -1,0 +1,13 @@
+{
+  "name": "@vitra/admin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('admin app scaffold')\"",
+    "build": "node -e \"console.log('admin build scaffold')\"",
+    "lint": "node -e \"console.log('admin lint scaffold')\"",
+    "test": "node -e \"console.log('admin test scaffold')\"",
+    "typecheck": "node -e \"console.log('admin typecheck scaffold')\""
+  }
+}
+

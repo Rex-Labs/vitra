@@ -1,0 +1,12 @@
+{
+  "name": "@vitra/service-ai-inference",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('ai-inference service dev scaffold')\"",
+    "build": "node -e \"console.log('ai-inference service build scaffold')\"",
+    "lint": "node -e \"console.log('ai-inference service lint scaffold')\"",
+    "test": "node -e \"console.log('ai-inference service test scaffold')\"",
+    "typecheck": "node -e \"console.log('ai-inference service typecheck scaffold')\""
+  }
+}
