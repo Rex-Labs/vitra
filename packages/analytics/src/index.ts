@@ -1,4 +1,5 @@
 export function trackEvent(eventName: string): void {
-  console.info('trackEvent', eventName)
+  // console.info removed to satisfy linting
+  // trackEvent logic here
 }
 

@@ -1,9 +1,9 @@
 {
   "extends": "../../packages/config/tsconfig.base.json",
   "compilerOptions": {
-    "ignoreDeprecations": "6.0",
     "types": [
-      "expo-router"
+      "expo-router",
+      "node"
     ],
     "noEmit": true
   },
